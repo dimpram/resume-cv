@@ -31,7 +31,7 @@ experience:
       - Designed branch brand graphics and event posters
       - Branch adopted a minimal and modern visual style approach
 
-extracurricular activity:
+extracurricular:
   - title: Ionian IEEE Student Branch Chairman
     details: Ionian IEEE Student Branch, Corfu, 2020 - Present
     bullets:
@@ -49,14 +49,14 @@ seminars:
     bullets:
       - Speaker for Git & Github webinar
 
-personal projects:
+projects:
   - Jekyll Unofficial Ionian University webpage, 2019
   - PHP Cinema Information System, 2019
 
 skills:
-  - tech:
+  tech:
     - HTML5, CSS, JS, PHP, Jekyll, C C++, Python, MySQL, Git & Github
-  - soft:
+  soft:
     - Public speaking, Presenting progress, Reviewing work, Team coordination, Exchanging ideas
 
 languages: Greak (native), English (ECCE)

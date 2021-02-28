@@ -1,14 +1,32 @@
+---
+---
+{% include variables.html %}
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
         <title>Dimitris Pramateftakis // CV</title>
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
     <body>
-        <div class="container">
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nemo! Nostrum obcaecati pariatur aspernatur, distinctio ipsum a alias accusamus voluptatibus recusandae iste ipsam porro, voluptatem modi necessitatibus nihil in rerum!</p> 
+        <div class="page">
+            {% include details.html %}
+            <!-- 2 column layout using grid -->
+            {% include summary.html %}
+            {% include education.html %}
+            {% include experience.html %}
+            {% include extracurricular.html %}
+            <!-- End of 2 column layout using grid -->
+        </div>
+        <div class="page">
+            <!-- 2 column layout using grid -->
+            {% include seminars.html %}
+            {% include projects.html %}
+            {% include skills.html %}
+            {% include languages.html %}
+            {% include hobbies.html %}
+            <!-- End of 2 column layout using grid -->
         </div>
     </body>
 </html>

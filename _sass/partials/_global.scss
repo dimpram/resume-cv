@@ -1,0 +1,32 @@
+// 2 column layout
+
+.row {
+    display: grid;
+    margin: 10px 0;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.section__title {
+    font-weight: 100;
+}
+
+.content{
+    &__title {
+        font-weight:bold;
+    }
+
+    &__details {
+        font-weight:normal;
+        font-style: italic;
+    }
+    
+    &__bullets {
+        margin-left: 20px;
+    }
+
+    &--gap {
+        margin-bottom: 10px;
+    }
+}
