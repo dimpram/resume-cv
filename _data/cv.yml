@@ -1,0 +1,66 @@
+details:
+  name: Dimitris Pramateftakis
+  uni: Ionian University
+  dept: Dept. of Informatics
+  place: Corfu, Ionian Islands, Greece
+  email: dev@dimitrisprama.com
+  phone: +30 699 415 7765
+  github: "@dimpram"
+  linkedin: "@dimitris-pramateftakis"
+
+summary: I am an undergraduate student intrested in web technologies currently pur-suing a bachelor’s degree in Informatics at the Ionian University of Greece.
+
+education:
+  - Ionian Univeristy Dept. Of Informatics
+  - BS.c., Informatics, 2018 - 2022 (expected)
+  - Fields ~ IT System & Web Development
+
+experience:
+  - title: Full stack Web Developer
+    details: CMOD Lab, 2019 - Present
+    bullets:
+      - Core developer on AED Locator project
+      - Created and developed project's website graphics, PHP API and CMS and deployed them on CMOD Lab's server
+  - title: Frontend Web Developer
+    details: Rock Under The Clock Festival, Crete, 2019 - Present
+    bullets:
+      - Designed and developed festival's website using Jekyll framework
+  - title: Graphic Designer
+    details: Ionian IEEE Student Branch, Corfu, 2019 - Present
+    bullets:
+      - Designed branch brand graphics and event posters
+      - Branch adopted a minimal and modern visual style approach
+
+extracurricular activity:
+  - title: Ionian IEEE Student Branch Chairman
+    details: Ionian IEEE Student Branch, Corfu, 2020 - Present
+    bullets:
+      - Responisibility for proper event execution
+      - Team member roles and duties management
+  - title: Volunteer
+    details: Rock Undet The Clock Festival, Crete, 2016 - Present
+    bullets:
+      - Part of festival's organization team
+      - Volunteer group coordinator
+
+seminars:
+  - title: Introduction to Git & Github
+    details: Ionian IEEE Student Branch, Online, 2020
+    bullets:
+      - Speaker for Git & Github webinar
+
+personal projects:
+  - Jekyll Unofficial Ionian University webpage, 2019
+  - PHP Cinema Information System, 2019
+
+skills:
+  - tech:
+    - HTML5, CSS, JS, PHP, Jekyll, C C++, Python, MySQL, Git & Github
+  - soft:
+    - Public speaking, Presenting progress, Reviewing work, Team coordination, Exchanging ideas
+
+languages: Greak (native), English (ECCE)
+
+hobbies:
+  - Music performance and composition (singer and bass player in a rock band)
+  - Reading about programming and computer science concepts
