@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    academic-cv-jekyll (0.1.1)
+      jekyll (~> 4.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
@@ -61,6 +63,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  academic-cv-jekyll
   jekyll
 
 BUNDLED WITH
