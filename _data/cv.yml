@@ -11,9 +11,10 @@ details:
 summary: I am an undergraduate student intrested in web technologies currently pur-suing a bachelor’s degree in Informatics at the Ionian University of Greece.
 
 education:
-  - Ionian Univeristy Dept. Of Informatics
-  - BS.c., Informatics, 2018 - 2022 (expected)
-  - Fields ~ IT System & Web Development
+  - title: Ionian Univeristy Dept. Of Informatics
+    details: BS.c., Informatics, 2018 - 2022 (expected)
+    bullets:
+      - IT System & Web Development
 
 experience:
   - title: Full stack Web Developer
@@ -54,9 +55,11 @@ projects:
   - PHP Cinema Information System, 2019
 
 skills:
-  tech:
+  - title: tech
+    details:
     - HTML5, CSS, JS, PHP, Jekyll, C C++, Python, MySQL, Git & Github
-  soft:
+  - title: soft
+    details:
     - Public speaking, Presenting progress, Reviewing work, Team coordination, Exchanging ideas
 
 languages: Greak (native), English (ECCE)
