@@ -5,19 +5,19 @@
 <hr>
 <table class="table--details">
     <tr>
-        <td>{{ yml.uni}}</td>
-        <td>Email: {{ yml.email }}</td> 
+        <td>{{ yml.uni }}</td>
+        <td>Email: <a href="mailto:{{ yml.email }}">{{ yml.email }}</a></td> 
     </tr>
     <tr>
-        <td>{{ yml.dept}}</td>
-        <td>Phone: {{ yml.phone }}</td> 
+        <td>{{ yml.dept }}</td>
+        <td>Phone: <a href="tel:{{ yml.phone }}">{{ yml.phone }}</a></td> 
     </tr>
     <tr>
-        <td>{{ yml.place}}</td>
-        <td>Github: {{ yml.github }}</td> 
+        <td>{{ yml.place }}</td>
+        <td>Github: <a href="{{ yml.github.url }}">{{ yml.github.name }}</a></td> 
     </tr>
     <tr>
         <td></td>
-        <td>Linkedin: {{ yml.linkedin }}</td> 
+        <td>Linkedin: <a href="{{ yml.linkedin.url }}">{{ yml.linkedin.name }}</a></td> 
     </tr>
 </table>

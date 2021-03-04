@@ -5,8 +5,12 @@ details:
   place: Corfu, Ionian Islands, Greece
   email: dev@dimitrisprama.com
   phone: +30 699 415 7765
-  github: "@dimpram"
-  linkedin: "@dimitris-pramateftakis"
+  github: 
+    name: "@dimpram"
+    url: "https://github.com/dimpram"
+  linkedin:
+    name: "Dimitris Pramateftakis"
+    url: "www.linkedin.com/in/dimpram"
 
 summary: I am an undergraduate student intrested in web technologies currently pur-suing a bachelor’s degree in Informatics at the Ionian University of Greece.
 
