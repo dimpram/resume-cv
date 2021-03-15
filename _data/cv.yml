@@ -1,3 +1,4 @@
+---
 details:
   name: Dimitris Pramateftakis
   uni: Ionian University
@@ -12,7 +13,7 @@ details:
     name: "Dimitris Pramateftakis"
     url: "www.linkedin.com/in/dimpram"
 
-summary: I am an undergraduate student intrested in web technologies currently pur-suing a bachelor’s degree in Informatics at the Ionian University of Greece.
+summary: I am an undergraduate student intrested in web technologies currently pursuing a bachelor’s degree in Informatics at the Ionian University of Greece.
 
 education:
   - title: Ionian Univeristy Dept. Of Informatics
@@ -25,7 +26,7 @@ experience:
     details: CMOD Lab, 2019 - Present
     bullets:
       - Core developer on AED Locator project
-      - Created and developed project's website graphics, PHP API and CMS and deployed them on CMOD Lab's server
+      - Developed project's PHP API and CMS and deployed them.
   - title: Frontend Web Developer
     details: Rock Under The Clock Festival, Crete, 2019 - Present
     bullets:
@@ -65,9 +66,14 @@ skills:
   - title: soft
     details:
     - Public speaking, Presenting progress, Reviewing work, Team coordination, Exchanging ideas
+    pandoc:
+    - Public speaking, Presenting progress, Reviewing work, Team coordination,
+    - Exchanging ideas
 
 languages: Greak (native), English (ECCE)
 
 hobbies:
-  - Music performance and composition (singer and bass player in a rock band)
+  - Music performance and composition (singer and bass player)
+  - Curating playlists on Spotify
   - Reading about programming and computer science concepts
+---

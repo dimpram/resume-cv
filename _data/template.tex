@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
+
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+\noindent  \LARGE{\textbf{$details.name$}} \\
+\vspace{-2ex} 
+\hrule 
+\normalsize
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+
+\begin{center}
+\begin{tabular}{l l}
+  $details.uni$   & \hspace{0.95in} \href{mailto:$details.email$}{Email: $details.email$} \\
+  $details.dept$  & \hspace{1in}Phone: $details.phone$ \\
+  $details.place$ & \hspace{1in}Github: $details.github.name$ \\
+  & \hspace{1in}Linkedin: $details.linkedin.name$
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+\noindent \begin{tabular}{@{} l l}
+  \Large{Summary}
+    & \parbox{5.0in}{$summary$}\\
+    & \\
+  \vspace{-10pt}
+  \Large{Education} \\
+  $for(education)$
+    & \raisebox{2mm}[\depth]{\textbf{$education.title$}} \\
+    & \raisebox{2mm}[\depth]{\textit{$education.details$}} \\
+    $for(education.bullets)$
+    & \raisebox{2mm}[\depth]{• $education.bullets$} \\
+    $endfor$
+    & \\
+  $endfor$
+  \vspace{-10pt}
+  \Large{Experience} \\
+  $for(experience)$
+    & \raisebox{2mm}[\depth]{\textbf{$experience.title$}} \\
+    & \raisebox{2mm}[\depth]{\textit{$experience.details$}} \\
+    $for(experience.bullets)$
+    & \raisebox{2mm}[\depth]{• $experience.bullets$} \\
+    $endfor$
+    & \\
+  $endfor$
+  \vspace{-10pt}
+  \Large{Extracurricular} \\
+  $for(extracurricular)$
+    & \raisebox{2mm}[\depth]{\textbf{$extracurricular.title$}} \\
+    & \raisebox{2mm}[\depth]{\textit{$extracurricular.details$}} \\
+    $for(extracurricular.bullets)$
+    & \raisebox{2mm}[\depth]{• $extracurricular.bullets$} \\
+    $endfor$
+    & \\
+  $endfor$
+  \vspace{-12pt}
+  \Large{Seminars} \\
+  $for(seminars)$
+    & \raisebox{2mm}[\depth]{\textbf{$seminars.title$}} \\
+    & \raisebox{2mm}[\depth]{\textit{$seminars.details$}} \\
+    $for(seminars.bullets)$
+    & \raisebox{2mm}[\depth]{• $seminars.bullets$} \\
+    $endfor$
+    & \\
+  $endfor$
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%% PAGE 2 %%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\noindent \begin{tabular}{@{} l l}
+  \Large{Personal} \\ \Large{Projects} \\
+  $for(projects)$
+    & \raisebox{10mm}[\depth]{• $projects$} \\
+  $endfor$
+  \Large{Skills}
+    $for(skills)$
+    & \raisebox{2mm}[\depth]{\textbf{$skills.title$}} \\
+    $if(skills.pandoc)$
+      $for(skills.pandoc)$
+    & \raisebox{2mm}[\depth]{$skills.pandoc$} \\
+      $endfor$
+    $else$
+    & \raisebox{2mm}[\depth]{$skills.details$} \\
+    $endif$
+    & \\
+    $endfor$
+  \Large{Languages} & $languages$ \\
+  & \\
+  \Large{Hobbies} \\
+  $for(hobbies)$
+  & \raisebox{5mm}[\depth]{• $hobbies$} \\
+  $endfor$ 
+  & \\
+\end{tabular}
+\end{document}
