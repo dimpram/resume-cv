@@ -23,10 +23,10 @@ jobs:
         uses: docker://pandoc/latex:2.11.4
         with:
           args: >-  # allows you to break string into multiple lines
-            _data/cv.yml 
-            -o assets/output.pdf 
-            --template=_data/template.tex 
             --pdf-engine=xelatex
+            --template=_data/template.tex
+            -o assets/output.pdf
+            _data/cv.yml
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
