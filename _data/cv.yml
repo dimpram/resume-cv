@@ -27,15 +27,6 @@ experience:
     bullets:
       - Core developer on AED Locator project
       - Developed project's PHP API and CMS and deployed them.
-  - title: Frontend Web Developer
-    details: Rock Under The Clock Festival, Crete, 2019 - Present
-    bullets:
-      - Designed and developed festival's website using Jekyll framework
-  - title: Graphic Designer
-    details: Ionian IEEE Student Branch, Corfu, 2019 - Present
-    bullets:
-      - Designed branch brand graphics and event posters
-      - Branch adopted a minimal and modern visual style approach
 
 extracurricular:
   - title: Ionian IEEE Student Branch Chairman
@@ -43,8 +34,17 @@ extracurricular:
     bullets:
       - Responisibility for proper event execution
       - Team member roles and duties management
+  - title: Graphic Designer
+    details: Ionian IEEE Student Branch, Corfu, 2019 - 2020
+    bullets:
+      - Designed branch brand graphics and event posters
+      - Branch adopted a minimal and modern visual style approach
+  - title: Frontend Web Developer
+    details: Rock Under The Clock Festival, Crete, 2019 - 2021
+    bullets:
+      - Designed and developed festival's website using Jekyll framework
   - title: Volunteer
-    details: Rock Undet The Clock Festival, Crete, 2016 - Present
+    details: Rock Under The Clock Festival, Crete, 2016 - Present
     bullets:
       - Part of festival's organization team
       - Volunteer group coordinator
