@@ -11,7 +11,10 @@ details:
     url: "https://github.com/dimpram"
   linkedin:
     name: "Dimitris Pramateftakis"
-    url: "www.linkedin.com/in/dimpram"
+    url: "https://www.linkedin.com/in/dimpram/"
+  portfolio:
+    name: "Portfolio"
+    url: "https://www.dimitrisprama.com"
 
 summary: I am an undergraduate student interested in web technologies currently pursuing a bachelor’s degree in Informatics at the Ionian University of Greece.
 
@@ -26,7 +29,8 @@ experience:
     details: CMOD Lab, 2019 - Present
     bullets:
       - Core developer on AED Locator project
-      - Developed project's PHP API and CMS and deployed them.
+      - Developed project's PHP API and CMS and deployed them
+      - Designed project's mobile app
 
 extracurricular:
   - title: Ionian IEEE Student Branch Chairman
@@ -34,20 +38,20 @@ extracurricular:
     bullets:
       - Responisibility for proper event execution
       - Team member roles and duties management
+  - title: Frontend Web Developer
+    details: Rock Under The Clock Festival, Crete, 2019 - Present
+    bullets:
+      - Designed and developed festival's website using Jekyll framework
+  - title: Volunteer Group Coordinator
+    details: Rock Under The Clock Festival, Crete, 2016 - Present
+    bullets:
+      - Part of festival's organization team
+      - Responsible for coordinating a team of 50-60 people
   - title: Graphic Designer
     details: Ionian IEEE Student Branch, Corfu, 2019 - 2020
     bullets:
       - Designed branch brand graphics and event posters
       - Branch adopted a minimal and modern visual style approach
-  - title: Frontend Web Developer
-    details: Rock Under The Clock Festival, Crete, 2019 - 2021
-    bullets:
-      - Designed and developed festival's website using Jekyll framework
-  - title: Volunteer
-    details: Rock Under The Clock Festival, Crete, 2016 - Present
-    bullets:
-      - Part of festival's organization team
-      - Volunteer group coordinator
 
 seminars:
   - title: Introduction to Git & Github
@@ -70,10 +74,10 @@ skills:
     - Public speaking, Presenting progress, Reviewing work, Team coordination,
     - Exchanging ideas
 
-languages: Greak (native), English (ECCE)
+languages: Greek (native), English (ECCE)
 
 hobbies:
-  - Music performance and composition (singer and bass player)
+  - Singer and bass player in a band currently releasing its first album
   - Curating playlists on Spotify
   - Reading about programming and computer science concepts
 ---
